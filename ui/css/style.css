@@ -74,7 +74,6 @@ header a :hover{
 }
 #showcase{
     min-height:400px;
-    background:url('.../img/showcase.jpg') no repeat 0-400px;
     text-align: center;
     color: #cccccd;
 
@@ -90,9 +89,10 @@ header a :hover{
 }
  
 aside#sidebar{
-    float: left;
+    /*float: left;*/
     width: 30%;
     margin-top: 15px;
+    margin: 15 auto;
 } 
 aside#sidebar.signup input,aside#sidebar.signup textarea{
     width: 90%;
